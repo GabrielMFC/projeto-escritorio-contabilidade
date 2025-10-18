@@ -1,0 +1,67 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 3.125rem;
+}
+
+.about h1 {
+    font-size: 2rem;
+    color: rgb(16, 135, 67);
+    font-weight: 800;
+}
+
+.about .titulo-principal{
+    color: rgb(16, 135, 67);
+    font-weight: 500;
+}
+
+.about p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.about .historia,.proposito{
+    width: 65%;
+}
+
+.historia p{
+    margin-top: 50px;
+}
+
+.proposito p{
+    margin-top: 50px;
+}
+
+.about .equipe{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.about .equipe img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 769px) {
+    .about h1{
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        font-size: 1.225rem;
+    }
+
+    .about .equipe img {
+        margin-bottom: 150px;
+    }
+}

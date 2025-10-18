@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 160px;
+    background-color: rgb(16, 135, 67);
+    text-align: center;
+}
+
+.footer .titulo{
+    color: #ffff;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    color: #ffff;
+    transition: 0.3s;
+}
+
+footer i{
+    font-size: 22px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+@media screen and (min-width: 769px) {
+    .footer {
+        font-size: 1.225rem;
+    }
+}

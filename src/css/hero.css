@@ -1,0 +1,19 @@
+.hero {
+    height: 100dvh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        height: 80vh;
+    }
+} 

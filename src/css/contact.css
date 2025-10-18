@@ -1,0 +1,153 @@
+.contact {
+    color: rgb(16, 135, 67);
+    min-height: 100vh;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 800px;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    width: 60%;
+}
+
+.formulario h3 {
+    margin-top: 35px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.input {
+    border: 2px solid rgb(16, 135, 67);
+}
+
+.input-nao-preenchido {
+    border: 2px solid red;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin: 5px;
+}
+
+textarea {
+    height: 100px;
+    width: 300px;
+}
+
+.button {
+    background-color: rgb(16, 135, 67);
+    width: 100px;
+    height: 22px;
+    color: #ffff;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario .agradecimento {
+    display: none;
+}
+
+.formulario .preenchimento {
+    display: none;
+}
+
+.formulario .agradecimento-mostrar {
+    display: block;
+}
+
+
+.formulario .preenchimento-mostrar {
+    display: block;
+    color: red;
+}
+
+/* RESPONSIVE CONTACT */
+
+@media screen and (min-width: 769px) {
+    .contact {
+        min-height: 500px;
+    }
+
+    .contact .container {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 80px;
+    }
+
+    .contact p {
+        font-size: 1rem;
+    }
+
+    .info {
+        width: 40%;
+    }
+
+    .formulario {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .contact {
+        min-height: 100vh;
+    }
+
+    .contact p {
+        font-size: 1.225rem;
+    }
+
+    input {
+        height: 40px;
+        width: 350px;
+        margin: 8px;
+    }
+
+    textarea {
+        height: 100px;
+        width: 350px;
+    }
+}

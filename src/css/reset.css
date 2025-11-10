@@ -12,3 +12,7 @@ a{
 ul{
     list-style: none;
 }
+
+input[type=number]::-webkit-inner-spin-button {
+        appearance: none;
+    }
